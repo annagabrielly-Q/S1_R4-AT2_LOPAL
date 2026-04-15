@@ -1,6 +1,6 @@
 let numero = Number(prompt("digite um número inteiro."));
 
-if (isNaNn(numero)) {
+if (isNaN(numero)) {
     alert("o que você digitou não é um número");
 }else{ 
 
