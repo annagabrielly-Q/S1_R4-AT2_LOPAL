@@ -1,7 +1,13 @@
-let soma =0
-for (let i =1; i <=10;i++){
-   soma += i;
-
-}
+let multiplo = Number(prompt("digite um número"));
+ 
+if(isNaN(multiplo)){
+   alert("digite um número")
    
-alert (`a soma total é: ${soma}`)
+   } else {
+      alert(`tabuada do ${multiplo} é`);
+
+      for(let i = 1; i <=10; i++){
+         let resultado = multiplo * i;
+         alert(`${multiplo} * ${i} =${resultado}`);
+      }
+   }
